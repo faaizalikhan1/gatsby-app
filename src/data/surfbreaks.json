@@ -1,0 +1,72 @@
+[
+  {
+    "title"  : "Ala Moana",
+    "shore"  : "S",
+    "magicSW": 661
+  },
+  {
+    "title"  : "Waikiki",
+    "shore"  : "S",
+    "magicSW": 662
+  },
+  {
+    "title"  : "Sandy Beach",
+    "shore"  : "S",
+    "magicSW": 1099
+  },
+  {
+    "title"  : "Kailua Outer Reefs",
+    "shore"  : "E",
+    "magicSW": 671
+  },
+  {
+    "title"  : "Makaha Point",
+    "shore"  : "W",
+    "magicSW": 983
+  },
+  {
+    "title"  : "Makapuu Point",
+    "shore"  : "E",
+    "magicSW": 984
+  },
+  {
+    "title"  : "Barbers Point",
+    "shore"  : "S",
+    "magicSW": 3082
+  },
+  {
+    "title"  : "Maili Point",
+    "shore"  : "W",
+    "magicSW": 3084
+  },
+  {
+    "title"  : "Waimea Bay",
+    "shore"  : "N",
+    "magicSW": 549
+  },
+  {
+    "title"  : "Pipeline",
+    "shore"  : "N",
+    "magicSW": 616
+  },
+  {
+    "title"  : "Sunset",
+    "shore"  : "N",
+    "magicSW": 657
+  },
+  {
+    "title"  : "Rocky Point",
+    "shore"  : "N",
+    "magicSW": 658
+  },
+  {
+    "title"  : "Haleʻiwa",
+    "shore"  : "N",
+    "magicSW": 660
+  },
+  {
+    "title"  : "Laniakea",
+    "shore"  : "N",
+    "magicSW": 3672
+  }
+]
