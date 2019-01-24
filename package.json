@@ -25,7 +25,7 @@
   "license": "MIT",
   "scripts": {
     "heroku-postbuild": "gatsby build",
-    "start": "gatsby serve --port 9000"
+    "start": "gatsby serve"
   },
   "devDependencies": {
     "prettier": "^1.15.2"
