@@ -24,12 +24,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "heroku-postbuild": "gatsby build",
-    "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "heroku-postbuild": "gatsby build"
   },
   "devDependencies": {
     "prettier": "^1.15.2"
