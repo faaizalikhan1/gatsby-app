@@ -1,1 +1,1 @@
-web: gatsby build && gatsby serve
+web: gatsby build
