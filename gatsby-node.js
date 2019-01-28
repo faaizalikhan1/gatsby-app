@@ -69,7 +69,7 @@ exports.createPages = ({ graphql, actions }) => {
             path: `/blog/${post.node.slug}/`,
             component: blogPost,
             context: {
-              post: post.node.id
+              id: post.node.id
             },
           })
         })
