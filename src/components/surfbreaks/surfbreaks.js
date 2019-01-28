@@ -3,7 +3,6 @@ import surfbreaks from '../../data/surfbreaks'
 import Card from '@material-ui/core/Card'
 import { navigate } from "gatsby"
 
-
 class SurfBreaks extends Component {
   constructor(props) {
     super(props)
@@ -13,6 +12,7 @@ class SurfBreaks extends Component {
   }
 
   render() {
+
     return (
       <div>
         {
