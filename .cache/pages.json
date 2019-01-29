@@ -1,0 +1,112 @@
+[
+    {
+        "componentChunkName": "component---src-pages-index-js",
+        "jsonName": "index",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-html-516",
+        "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-22d",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "blog-automate-with-webhooks-0b0",
+        "path": "/blog/automate-with-webhooks/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "blog-hello-world-888",
+        "path": "/blog/hello-world/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "blog-static-sites-are-great-446",
+        "path": "/blog/static-sites-are-great/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blogs-js",
+        "jsonName": "blogs-0c8",
+        "path": "/blogs"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-templates-surfbreak-js",
+        "jsonName": "surfbreaks-ala-moana-5c3",
+        "path": "/surfbreaks/Ala Moana"
+    },
+    {
+        "componentChunkName": "component---src-templates-surfbreak-js",
+        "jsonName": "surfbreaks-barbers-point-9b4",
+        "path": "/surfbreaks/Barbers Point"
+    },
+    {
+        "componentChunkName": "component---src-templates-surfbreak-js",
+        "jsonName": "surfbreaks-haleʻiwa-70b",
+        "path": "/surfbreaks/Haleʻiwa"
+    },
+    {
+        "componentChunkName": "component---src-templates-surfbreak-js",
+        "jsonName": "surfbreaks-kailua-outer-reefs-d46",
+        "path": "/surfbreaks/Kailua Outer Reefs"
+    },
+    {
+        "componentChunkName": "component---src-templates-surfbreak-js",
+        "jsonName": "surfbreaks-laniakea-dbe",
+        "path": "/surfbreaks/Laniakea"
+    },
+    {
+        "componentChunkName": "component---src-templates-surfbreak-js",
+        "jsonName": "surfbreaks-maili-point-420",
+        "path": "/surfbreaks/Maili Point"
+    },
+    {
+        "componentChunkName": "component---src-templates-surfbreak-js",
+        "jsonName": "surfbreaks-makaha-point-745",
+        "path": "/surfbreaks/Makaha Point"
+    },
+    {
+        "componentChunkName": "component---src-templates-surfbreak-js",
+        "jsonName": "surfbreaks-makapuu-point-5db",
+        "path": "/surfbreaks/Makapuu Point"
+    },
+    {
+        "componentChunkName": "component---src-templates-surfbreak-js",
+        "jsonName": "surfbreaks-pipeline-a05",
+        "path": "/surfbreaks/Pipeline"
+    },
+    {
+        "componentChunkName": "component---src-templates-surfbreak-js",
+        "jsonName": "surfbreaks-rocky-point-9ac",
+        "path": "/surfbreaks/Rocky Point"
+    },
+    {
+        "componentChunkName": "component---src-templates-surfbreak-js",
+        "jsonName": "surfbreaks-sandy-beach-40a",
+        "path": "/surfbreaks/Sandy Beach"
+    },
+    {
+        "componentChunkName": "component---src-templates-surfbreak-js",
+        "jsonName": "surfbreaks-sunset-8e1",
+        "path": "/surfbreaks/Sunset"
+    },
+    {
+        "componentChunkName": "component---src-templates-surfbreak-js",
+        "jsonName": "surfbreaks-waikiki-459",
+        "path": "/surfbreaks/Waikiki"
+    },
+    {
+        "componentChunkName": "component---src-templates-surfbreak-js",
+        "jsonName": "surfbreaks-waimea-bay-070",
+        "path": "/surfbreaks/Waimea Bay"
+    }
+]

@@ -1,0 +1,2344 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/home/user/Projects/surf/surfstatus/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/home/user/Projects/surf/surfstatus/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6c9da37414f30ba48a4c04c310c4e225",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/home/user/Projects/surf/surfstatus/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/user/Projects/surf/surfstatus/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "1d6787867d92ae94056acb92510897a6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/home/user/Projects/surf/surfstatus/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/user/Projects/surf/surfstatus/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6a042538eada8652f7c2ee235f708be6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/home/user/Projects/surf/surfstatus/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/user/Projects/surf/surfstatus/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f98bb8d68b10fce3dfe55e27f89f8266",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/home/user/Projects/surf/surfstatus/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/user/Projects/surf/surfstatus/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "b38c0ad80d6b324606723df1de51d395",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/home/user/Projects/surf/surfstatus/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/user/Projects/surf/surfstatus/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "de8a386d1427ce2337cc88ba0b5562a2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/home/user/Projects/surf/surfstatus/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/user/Projects/surf/surfstatus/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "64bb7c7017098965704c7a3806472554",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/home/user/Projects/surf/surfstatus/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/user/Projects/surf/surfstatus/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "23f2f0036b6642a78443e3b812d826a8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "697fe8c0-2b92-5ac5-9862-16c04bb3184c": {
+      "resolve": "/home/user/Projects/surf/surfstatus/node_modules/gatsby-source-filesystem",
+      "id": "697fe8c0-2b92-5ac5-9862-16c04bb3184c",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.17",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/home/user/Projects/surf/surfstatus/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/user/Projects/surf/surfstatus/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.17",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "be2a081d7ead801f91224dbe21e82aa5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/home/user/Projects/surf/surfstatus/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.12",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/user/Projects/surf/surfstatus/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.12",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "95f7ae5b4e60a4f1a2bc6f9a405e4804",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/home/user/Projects/surf/surfstatus/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.18",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/user/Projects/surf/surfstatus/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "4291f087abc1b3b37f08bd4d52cac8d5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "112c12f8-b222-509b-abe0-dfe93a905df9": {
+      "resolve": "/home/user/Projects/surf/surfstatus/node_modules/gatsby-plugin-manifest",
+      "id": "112c12f8-b222-509b-abe0-dfe93a905df9",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.13",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-default",
+        "short_name": "starter",
+        "start_url": "/",
+        "background_color": "#663399",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "src/images/gatsby-icon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/user/Projects/surf/surfstatus/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.13",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5de68027a263aa9b84626ed783fde9c1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "07e6af21-1d79-50d4-a89d-4acc02c7495c": {
+      "resolve": "/home/user/Projects/surf/surfstatus/node_modules/gatsby-source-contentful",
+      "id": "07e6af21-1d79-50d4-a89d-4acc02c7495c",
+      "name": "gatsby-source-contentful",
+      "version": "2.0.26",
+      "pluginOptions": {
+        "plugins": [],
+        "spaceId": "hqbf17jvtgzp",
+        "accessToken": "6abc758bd7259a33715243e37ec1c1900ac5217d9fb34ac717cebc6718f2838f",
+        "host": "preview.contentful.com",
+        "environment": "master"
+      },
+      "nodeAPIs": [
+        "setFieldsOnGraphQLNodeType",
+        "sourceNodes",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/user/Projects/surf/surfstatus/node_modules/gatsby-source-contentful",
+      "packageJson": {
+        "name": "gatsby-source-contentful",
+        "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
+        "version": "2.0.26",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": {
+          "name": "Marcus Ericsson",
+          "email": "mericsson@gmail.com",
+          "url": "mericsson.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "axios",
+            "version": "^0.18.0"
+          },
+          {
+            "name": "base64-img",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "contentful",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "deep-map",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.17"
+          },
+          {
+            "name": "is-online",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "json-stringify-safe",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "qs",
+            "version": "^6.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "bde445ca9488ae8bcb7a65ca37322832",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/home/user/Projects/surf/surfstatus",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "e2f73c8a2d97bc70d9234bbfa3c5fc0e",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/user/Projects/surf/surfstatus",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "A simple starter to get up and developing quickly with Gatsby",
+        "version": "0.1.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@material-ui/core",
+            "version": "^3.9.0"
+          },
+          {
+            "name": "core-js",
+            "version": "^2.6.3"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.76"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.16"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.14"
+          },
+          {
+            "name": "gatsby-source-contentful",
+            "version": "^2.0.26"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.8"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.8"
+          },
+          {
+            "name": "moment",
+            "version": "^2.24.0"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.6.3"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.6.3"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.15.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5b04c16b9bd2c8eba89b8069df39bae0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "3f1d4b7b-2a82-500d-8f2c-d4ca01cbc31e": {
+      "resolve": "/home/user/Projects/surf/surfstatus/node_modules/gatsby-plugin-page-creator",
+      "id": "3f1d4b7b-2a82-500d-8f2c-d4ca01cbc31e",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/home/user/Projects/surf/surfstatus/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/user/Projects/surf/surfstatus/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8bcb92b132da990e30e69fdf0433a31e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "SURF REPORT",
+        "description": "SURF REPORT",
+        "author": "@Christopher"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-01-29T05:17:00.059Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "7b0b7e3e68f54eda092875023ddabdbb",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4f7be17a-c2a6-5fcb-93a0-76db862b556c": {
+      "id": "4f7be17a-c2a6-5fcb-93a0-76db862b556c",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cbd683629f88002ec6f7ab71ad1b58e6",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/user/Projects/surf/surfstatus/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-01-28T06:23:55.768Z",
+      "accessTime": "2019-01-28T06:30:00.304Z",
+      "changeTime": "2019-01-28T06:23:55.768Z",
+      "birthTime": "2019-01-28T06:23:55.768Z",
+      "root": "/",
+      "dir": "/home/user/Projects/surf/surfstatus/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 2055,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 22708648,
+      "blocks": 8,
+      "atimeMs": 1548657000303.8145,
+      "mtimeMs": 1548656635767.8298,
+      "ctimeMs": 1548656635767.8298,
+      "birthtimeMs": 1548656635767.8298,
+      "atime": "2019-01-28T06:30:00.304Z",
+      "mtime": "2019-01-28T06:23:55.768Z",
+      "ctime": "2019-01-28T06:23:55.768Z",
+      "birthtime": "2019-01-28T06:23:55.768Z"
+    },
+    "193df941-7d01-54ef-b38e-7c633e3580df": {
+      "id": "193df941-7d01-54ef-b38e-7c633e3580df",
+      "children": [
+        "ce12c5db-ec3b-5f81-b0b7-96103e2c75fb"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/user/Projects/surf/surfstatus/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2019-01-28T06:23:55.768Z",
+      "accessTime": "2019-01-28T06:30:00.312Z",
+      "changeTime": "2019-01-28T06:23:55.768Z",
+      "birthTime": "2019-01-28T06:23:55.768Z",
+      "root": "/",
+      "dir": "/home/user/Projects/surf/surfstatus/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 2055,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 22706328,
+      "blocks": 48,
+      "atimeMs": 1548657000311.8145,
+      "mtimeMs": 1548656635767.8298,
+      "ctimeMs": 1548656635767.8298,
+      "birthtimeMs": 1548656635767.8298,
+      "atime": "2019-01-28T06:30:00.312Z",
+      "mtime": "2019-01-28T06:23:55.768Z",
+      "ctime": "2019-01-28T06:23:55.768Z",
+      "birthtime": "2019-01-28T06:23:55.768Z"
+    },
+    "ce12c5db-ec3b-5f81-b0b7-96103e2c75fb": {
+      "id": "ce12c5db-ec3b-5f81-b0b7-96103e2c75fb",
+      "children": [],
+      "parent": "193df941-7d01-54ef-b38e-7c633e3580df",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "2a7b87f1-07fa-5dae-b2b0-1815bd4e16ad": {
+      "id": "2a7b87f1-07fa-5dae-b2b0-1815bd4e16ad",
+      "children": [
+        "bcc476ba-5859-56ef-b02a-6a882dcf1b32"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-astronaut.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/user/Projects/surf/surfstatus/src/images/gatsby-astronaut.png",
+      "relativePath": "gatsby-astronaut.png",
+      "extension": "png",
+      "size": 167273,
+      "prettySize": "167 kB",
+      "modifiedTime": "2019-01-28T06:23:55.768Z",
+      "accessTime": "2019-01-28T06:30:00.312Z",
+      "changeTime": "2019-01-28T06:23:55.768Z",
+      "birthTime": "2019-01-28T06:23:55.768Z",
+      "root": "/",
+      "dir": "/home/user/Projects/surf/surfstatus/src/images",
+      "base": "gatsby-astronaut.png",
+      "ext": ".png",
+      "name": "gatsby-astronaut",
+      "relativeDirectory": "",
+      "dev": 2055,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 22706327,
+      "blocks": 328,
+      "atimeMs": 1548657000311.8145,
+      "mtimeMs": 1548656635767.8298,
+      "ctimeMs": 1548656635767.8298,
+      "birthtimeMs": 1548656635767.8298,
+      "atime": "2019-01-28T06:30:00.312Z",
+      "mtime": "2019-01-28T06:23:55.768Z",
+      "ctime": "2019-01-28T06:23:55.768Z",
+      "birthtime": "2019-01-28T06:23:55.768Z"
+    },
+    "bcc476ba-5859-56ef-b02a-6a882dcf1b32": {
+      "id": "bcc476ba-5859-56ef-b02a-6a882dcf1b32",
+      "children": [],
+      "parent": "2a7b87f1-07fa-5dae-b2b0-1815bd4e16ad",
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "f289a21e-04b5-53b2-a7ea-9a7ed49e2ff1": {
+      "id": "f289a21e-04b5-53b2-a7ea-9a7ed49e2ff1",
+      "parent": null,
+      "children": [],
+      "name": "Person",
+      "displayField": "name",
+      "description": "",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "4c191b2d502032d5fd982bf7ac38736f",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "3c56de93-d279-5889-8563-5298ad412080": {
+      "name": "John Doe",
+      "title": "Web Developer",
+      "company": "ACME",
+      "email": "john@doe.com",
+      "phone": "0176 / 1234567",
+      "facebook": "johndoe",
+      "twitter": "johndoe",
+      "github": "johndoe",
+      "image___NODE": "a2315d60-cf08-5788-91a7-ad6504672de3",
+      "blog post___NODE": [
+        "e2cd30c3-913d-5f6f-9230-f3ed1c91a35c",
+        "aa7f37c3-955c-5d5e-9024-0b7e98684e23",
+        "977bbcc5-6d12-5964-9d85-b4abf37b57d9"
+      ],
+      "shortBio___NODE": "f77fb91c-f815-593b-bc1f-625578c9f4f0",
+      "id": "3c56de93-d279-5889-8563-5298ad412080",
+      "contentful_id": "15jwOBqpxqSAOy2eOO4S0m",
+      "createdAt": "2018-11-12T14:42:00.297Z",
+      "updatedAt": "2018-11-12T14:42:05.390Z",
+      "parent": "Person",
+      "children": [
+        "f77fb91c-f815-593b-bc1f-625578c9f4f0"
+      ],
+      "internal": {
+        "type": "ContentfulPerson",
+        "contentDigest": "a74d57248d3a74a8bc603712584bd590",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "f77fb91c-f815-593b-bc1f-625578c9f4f0": {
+      "id": "f77fb91c-f815-593b-bc1f-625578c9f4f0",
+      "parent": "3c56de93-d279-5889-8563-5298ad412080",
+      "children": [],
+      "shortBio": "Research and recommendations for modern stack websites.",
+      "internal": {
+        "type": "contentfulPersonShortBioTextNode",
+        "mediaType": "text/markdown",
+        "content": "Research and recommendations for modern stack websites.",
+        "contentDigest": "3279e2d11a6e85e2a01ff0b249351bb7",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "e1e094a9-007c-553e-99c6-c41fa78bf5d4": {
+      "id": "e1e094a9-007c-553e-99c6-c41fa78bf5d4",
+      "parent": null,
+      "children": [],
+      "name": "Blog Post",
+      "displayField": "title",
+      "description": "",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "a3b83f64622f2a9aea3a6a96b300f11b",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "e2cd30c3-913d-5f6f-9230-f3ed1c91a35c": {
+      "title": "Automate with webhooks",
+      "slug": "automate-with-webhooks",
+      "publishDate": "2017-05-12T00:00+02:00",
+      "tags": [
+        "javascript"
+      ],
+      "heroImage___NODE": "1859903a-c0c2-5584-b0ab-378bd2a65e53",
+      "author___NODE": "3c56de93-d279-5889-8563-5298ad412080",
+      "description___NODE": "26c84fe6-433c-5d4e-99ce-ecb90546b717",
+      "body___NODE": "752406a5-dc83-55f3-bb5a-3ff9d06a2e0e",
+      "id": "e2cd30c3-913d-5f6f-9230-f3ed1c91a35c",
+      "contentful_id": "31TNnjHlfaGUoMOwU0M2og",
+      "createdAt": "2018-11-12T14:42:00.239Z",
+      "updatedAt": "2018-11-12T14:42:09.873Z",
+      "parent": "Blog Post",
+      "children": [
+        "26c84fe6-433c-5d4e-99ce-ecb90546b717",
+        "752406a5-dc83-55f3-bb5a-3ff9d06a2e0e"
+      ],
+      "internal": {
+        "type": "ContentfulBlogPost",
+        "contentDigest": "e11b61eace4ccb547d23ed40beb9f8c7",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "aa7f37c3-955c-5d5e-9024-0b7e98684e23": {
+      "title": "Hello world",
+      "slug": "hello-world",
+      "publishDate": "2017-05-15T00:00+02:00",
+      "tags": [
+        "general"
+      ],
+      "heroImage___NODE": "45b493a8-9572-547c-a761-6c8dbf087248",
+      "author___NODE": "3c56de93-d279-5889-8563-5298ad412080",
+      "description___NODE": "36fb81fc-c1b3-5e25-b79c-55cc915622bd",
+      "body___NODE": "c72f650c-74a1-5ec7-a906-d6f8a4ac5706",
+      "id": "aa7f37c3-955c-5d5e-9024-0b7e98684e23",
+      "contentful_id": "3K9b0esdy0q0yGqgW2g6Ke",
+      "createdAt": "2018-11-12T14:42:00.272Z",
+      "updatedAt": "2018-11-12T14:42:08.611Z",
+      "parent": "Blog Post",
+      "children": [
+        "36fb81fc-c1b3-5e25-b79c-55cc915622bd",
+        "c72f650c-74a1-5ec7-a906-d6f8a4ac5706"
+      ],
+      "internal": {
+        "type": "ContentfulBlogPost",
+        "contentDigest": "89a90ca37171f2063cf1920491e6952e",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "977bbcc5-6d12-5964-9d85-b4abf37b57d9": {
+      "title": "Static sites are great",
+      "slug": "static-sites-are-great",
+      "publishDate": "2017-05-16T00:00+02:00",
+      "tags": [
+        "javascript",
+        "static-sites"
+      ],
+      "heroImage___NODE": "6e5763ae-297d-55a4-85b5-7f7988b40f00",
+      "author___NODE": "3c56de93-d279-5889-8563-5298ad412080",
+      "description___NODE": "0b2044f0-818a-516f-a704-e20a0c5309df",
+      "body___NODE": "9b14d738-10d3-5af9-b877-b01405cbf434",
+      "id": "977bbcc5-6d12-5964-9d85-b4abf37b57d9",
+      "contentful_id": "2PtC9h1YqIA6kaUaIsWEQ0",
+      "createdAt": "2018-11-12T14:42:00.766Z",
+      "updatedAt": "2018-11-12T14:42:07.250Z",
+      "parent": "Blog Post",
+      "children": [
+        "0b2044f0-818a-516f-a704-e20a0c5309df",
+        "9b14d738-10d3-5af9-b877-b01405cbf434"
+      ],
+      "internal": {
+        "type": "ContentfulBlogPost",
+        "contentDigest": "5e3e64a160de8a22ada2c7dfdf5bdf52",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "26c84fe6-433c-5d4e-99ce-ecb90546b717": {
+      "id": "26c84fe6-433c-5d4e-99ce-ecb90546b717",
+      "parent": "e2cd30c3-913d-5f6f-9230-f3ed1c91a35c",
+      "children": [],
+      "description": "Webhooks notify you, another person or system when resources have changed by calling a given HTTP endpoint.",
+      "internal": {
+        "type": "contentfulBlogPostDescriptionTextNode",
+        "mediaType": "text/markdown",
+        "content": "Webhooks notify you, another person or system when resources have changed by calling a given HTTP endpoint.",
+        "contentDigest": "768e509a535e5bcf9083639c026c33cf",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "752406a5-dc83-55f3-bb5a-3ff9d06a2e0e": {
+      "id": "752406a5-dc83-55f3-bb5a-3ff9d06a2e0e",
+      "parent": "e2cd30c3-913d-5f6f-9230-f3ed1c91a35c",
+      "children": [],
+      "body": "## What are webhooks?\n\nThe webhooks are used to notify you when content has been changed. Specify a URL, configure your webhook, and we will send an HTTP POST request whenever something happens to your content.\n\n## How do I configure a webhook?\n\nGo to Settings → Webhooks from the navigation bar at the top. From there, hit Add webhook, and you will be directed to your new webhook. Then choose a name, put in the information of your HTTP endpoint (URL and authentication), specify any custom headers and select the types of events that should trigger the webhook.\n\n## Why do I get an old version in the CDA?\n\nAs the delivery API is powered by a CDN network consisting of hundreds of servers distributed across continents, it takes some time (up to a few minutes) to reflect the changes to the published content. This must be taken into consideration when reacting to webhooks. In normal conditions, there could be a reasonable delay of 2 to 5 minutes.\n\nExtracted from the [Webhooks FAQ](https://www.contentful.com/faq/webhooks/ \"Webhooks FAQ\").",
+      "internal": {
+        "type": "contentfulBlogPostBodyTextNode",
+        "mediaType": "text/markdown",
+        "content": "## What are webhooks?\n\nThe webhooks are used to notify you when content has been changed. Specify a URL, configure your webhook, and we will send an HTTP POST request whenever something happens to your content.\n\n## How do I configure a webhook?\n\nGo to Settings → Webhooks from the navigation bar at the top. From there, hit Add webhook, and you will be directed to your new webhook. Then choose a name, put in the information of your HTTP endpoint (URL and authentication), specify any custom headers and select the types of events that should trigger the webhook.\n\n## Why do I get an old version in the CDA?\n\nAs the delivery API is powered by a CDN network consisting of hundreds of servers distributed across continents, it takes some time (up to a few minutes) to reflect the changes to the published content. This must be taken into consideration when reacting to webhooks. In normal conditions, there could be a reasonable delay of 2 to 5 minutes.\n\nExtracted from the [Webhooks FAQ](https://www.contentful.com/faq/webhooks/ \"Webhooks FAQ\").",
+        "contentDigest": "07d46590bdab14165dd60a611c88961c",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "36fb81fc-c1b3-5e25-b79c-55cc915622bd": {
+      "id": "36fb81fc-c1b3-5e25-b79c-55cc915622bd",
+      "parent": "aa7f37c3-955c-5d5e-9024-0b7e98684e23",
+      "children": [],
+      "description": "Your very first content with Contentful, pulled in JSON format using the Content Delivery API.",
+      "internal": {
+        "type": "contentfulBlogPostDescriptionTextNode",
+        "mediaType": "text/markdown",
+        "content": "Your very first content with Contentful, pulled in JSON format using the Content Delivery API.",
+        "contentDigest": "44cf14ea57502eaf5f192be763c4fe13",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c72f650c-74a1-5ec7-a906-d6f8a4ac5706": {
+      "id": "c72f650c-74a1-5ec7-a906-d6f8a4ac5706",
+      "parent": "aa7f37c3-955c-5d5e-9024-0b7e98684e23",
+      "children": [],
+      "body": "These is your very first content with Contentful, pulled in JSON format using the [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\"). Content and presentation are now decoupled, allowing you to focus your efforts in building the perfect app.\n\n## Your first steps\n\nBuilding with Contentful is easy. First take a moment to get [the basics of content modelling](https://www.contentful.com/r/knowledgebase/content-modelling-basics/ \"the basics of content modelling\"), which you can set up in the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\"). Once you get that, feel free to drop by the [Documentation](https://www.contentful.com/developers/docs/ \"Documentation\") to learn a bit more about how to build your app with Contentful, in particular the [API basics](https://www.contentful.com/developers/docs/concepts/apis/ \"API basics\") and each one of our four APIs, as shown below.\n\n### Content Delivery API\n\nThe [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\") (CDA), available at `cdn.contentful.com`, is a read-only API for delivering content from Contentful to apps, websites and other media. Content is delivered as JSON data, and images, videos and other media as files.\nThe API is available via a globally distributed content delivery network. The server closest to the user serves all content, both JSON and binary. This minimizes latency, which especially benefits mobile apps. Hosting content in multiple global data centers also greatly improves the availability of content.\n\n### Content Management API\n\nThe [Content Management API](https://www.contentful.com/developers/docs/references/content-management-api/ \"Content Management API\") (CMA), available at `api.contentful.com`, is a read-write API for managing content. Unlike the Content Delivery API, the management API requires you to authenticate as a Contentful user. You could use the CMA for several use cases, such as:\n* Automatic imports from different CMSes like WordPress or Drupal.\n* Integration with other backend systems, such as an e-commerce shop.\n* Building custom editing experiences. We built the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\") on top of this API.\n\n### Preview API\n\nThe [Content Preview API](https://www.contentful.com/developers/docs/concepts/apis/#content-preview-api \"Content Preview API\"), available at `preview.contentful.com`, is a variant of the CDA for previewing your content before delivering it to your customers. You use the Content Preview API in combination with a \"preview\" deployment of your website (or a \"preview\" build of your mobile app) that allows content managers and authors to view their work in-context, as if it were published, using a \"preview\" access token as though it were delivered by the CDA.\n\n### Images API\n\nThe [Images API](https://www.contentful.com/developers/docs/concepts/apis/#images-api \"Images API\"), available at `images.contentful.com`, allows you to resize and crop images, change their background color and convert them to different formats. Using our API for these transformations lets you upload high-quality assets, deliver exactly what your app needs, and still get all the benefits of our caching CDN.",
+      "internal": {
+        "type": "contentfulBlogPostBodyTextNode",
+        "mediaType": "text/markdown",
+        "content": "These is your very first content with Contentful, pulled in JSON format using the [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\"). Content and presentation are now decoupled, allowing you to focus your efforts in building the perfect app.\n\n## Your first steps\n\nBuilding with Contentful is easy. First take a moment to get [the basics of content modelling](https://www.contentful.com/r/knowledgebase/content-modelling-basics/ \"the basics of content modelling\"), which you can set up in the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\"). Once you get that, feel free to drop by the [Documentation](https://www.contentful.com/developers/docs/ \"Documentation\") to learn a bit more about how to build your app with Contentful, in particular the [API basics](https://www.contentful.com/developers/docs/concepts/apis/ \"API basics\") and each one of our four APIs, as shown below.\n\n### Content Delivery API\n\nThe [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\") (CDA), available at `cdn.contentful.com`, is a read-only API for delivering content from Contentful to apps, websites and other media. Content is delivered as JSON data, and images, videos and other media as files.\nThe API is available via a globally distributed content delivery network. The server closest to the user serves all content, both JSON and binary. This minimizes latency, which especially benefits mobile apps. Hosting content in multiple global data centers also greatly improves the availability of content.\n\n### Content Management API\n\nThe [Content Management API](https://www.contentful.com/developers/docs/references/content-management-api/ \"Content Management API\") (CMA), available at `api.contentful.com`, is a read-write API for managing content. Unlike the Content Delivery API, the management API requires you to authenticate as a Contentful user. You could use the CMA for several use cases, such as:\n* Automatic imports from different CMSes like WordPress or Drupal.\n* Integration with other backend systems, such as an e-commerce shop.\n* Building custom editing experiences. We built the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\") on top of this API.\n\n### Preview API\n\nThe [Content Preview API](https://www.contentful.com/developers/docs/concepts/apis/#content-preview-api \"Content Preview API\"), available at `preview.contentful.com`, is a variant of the CDA for previewing your content before delivering it to your customers. You use the Content Preview API in combination with a \"preview\" deployment of your website (or a \"preview\" build of your mobile app) that allows content managers and authors to view their work in-context, as if it were published, using a \"preview\" access token as though it were delivered by the CDA.\n\n### Images API\n\nThe [Images API](https://www.contentful.com/developers/docs/concepts/apis/#images-api \"Images API\"), available at `images.contentful.com`, allows you to resize and crop images, change their background color and convert them to different formats. Using our API for these transformations lets you upload high-quality assets, deliver exactly what your app needs, and still get all the benefits of our caching CDN.",
+        "contentDigest": "0bff58a87378831620af304825a698ad",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "0b2044f0-818a-516f-a704-e20a0c5309df": {
+      "id": "0b2044f0-818a-516f-a704-e20a0c5309df",
+      "parent": "977bbcc5-6d12-5964-9d85-b4abf37b57d9",
+      "children": [],
+      "description": "Worry less about security, caching, and talking to the server. Static sites are the new thing.",
+      "internal": {
+        "type": "contentfulBlogPostDescriptionTextNode",
+        "mediaType": "text/markdown",
+        "content": "Worry less about security, caching, and talking to the server. Static sites are the new thing.",
+        "contentDigest": "2ad30aa8931b94956ad74e36da0479d3",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "9b14d738-10d3-5af9-b877-b01405cbf434": {
+      "id": "9b14d738-10d3-5af9-b877-b01405cbf434",
+      "parent": "977bbcc5-6d12-5964-9d85-b4abf37b57d9",
+      "children": [],
+      "body": "## The case for the static site generator\n\nMore and more developers are jumping on the \"go static train\", and rightfully so. Static pages are fast, lightweight, they scale well. They are more secure, and simple to maintain and they allow you to focus all your time and effort on the user interface. Often times, this dedication really shows.\n\nIt just so happens that static site generators are mostly loved by developers, but not by the average Joe. They do not offer WYSIWYG, previewing on demo sites may take an update cycle, they are often based on markdown text files, and they require some knowledge of modern day repositories.\n\nMoreover, when teams are collaborating, it can get complicated quickly. Has this article already been proof-read or reviewed? Is this input valid? Are user permissions available, e.g. for administering adding and removing team members? Can this article be published at a future date? How can a large repository of content be categorized, organized, and searched? All these requirements have previously been more or less solved within the admin area of your CMS. But of course with all the baggage that made you leave the appserver-app-database-in-one-big-blob stack in the first place.\n\n## Content APIs to the rescue\n\nAn alternative is decoupling the content management aspect from the system. And then replacing the maintenance prone server with a cloud based web service offering. Effectively, instead of your CMS of old, you move to a [Content Management as a Service (CMaaS)](https://www.contentful.com/r/knowledgebase/content-as-a-service/ \"Content Management as a Service (CMaaS)\") world, with a content API to deliver all your content. That way, you get the all the [benefits of content management features](http://www.digett.com/blog/01/16/2014/pairing-static-websites-cms \"benefits of content management features\") while still being able to embrace the static site generator mantra.\n\nIt so happens that Contentful is offering just that kind of content API. A service that\n\n* from the ground up has been designed to be fast, scalable, secure, and offer high uptime, so that you don’t have to worry about maintenance ever again.\n* offers a powerful editor and lots of flexibility in creating templates for your documents that your editors can reuse and combine, so that no developers resources are required in everyday writing and updating tasks.\n* separates content from presentation, so you can reuse your content repository for any device platform your heart desires. That way, you can COPE (\"create once, publish everywhere\").\n* offers webhooks that you can use to rebuild your static site in a fully automated fashion every time your content is modified.\n\nExtracted from the article [CMS-functionality for static site generators](https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/ \"CMS-functionality for static site generators\"). Read more about the [static site generators supported by Contentful](https://www.contentful.com/developers/docs/tools/staticsitegenerators/ \"static site generators supported by Contentful\").",
+      "internal": {
+        "type": "contentfulBlogPostBodyTextNode",
+        "mediaType": "text/markdown",
+        "content": "## The case for the static site generator\n\nMore and more developers are jumping on the \"go static train\", and rightfully so. Static pages are fast, lightweight, they scale well. They are more secure, and simple to maintain and they allow you to focus all your time and effort on the user interface. Often times, this dedication really shows.\n\nIt just so happens that static site generators are mostly loved by developers, but not by the average Joe. They do not offer WYSIWYG, previewing on demo sites may take an update cycle, they are often based on markdown text files, and they require some knowledge of modern day repositories.\n\nMoreover, when teams are collaborating, it can get complicated quickly. Has this article already been proof-read or reviewed? Is this input valid? Are user permissions available, e.g. for administering adding and removing team members? Can this article be published at a future date? How can a large repository of content be categorized, organized, and searched? All these requirements have previously been more or less solved within the admin area of your CMS. But of course with all the baggage that made you leave the appserver-app-database-in-one-big-blob stack in the first place.\n\n## Content APIs to the rescue\n\nAn alternative is decoupling the content management aspect from the system. And then replacing the maintenance prone server with a cloud based web service offering. Effectively, instead of your CMS of old, you move to a [Content Management as a Service (CMaaS)](https://www.contentful.com/r/knowledgebase/content-as-a-service/ \"Content Management as a Service (CMaaS)\") world, with a content API to deliver all your content. That way, you get the all the [benefits of content management features](http://www.digett.com/blog/01/16/2014/pairing-static-websites-cms \"benefits of content management features\") while still being able to embrace the static site generator mantra.\n\nIt so happens that Contentful is offering just that kind of content API. A service that\n\n* from the ground up has been designed to be fast, scalable, secure, and offer high uptime, so that you don’t have to worry about maintenance ever again.\n* offers a powerful editor and lots of flexibility in creating templates for your documents that your editors can reuse and combine, so that no developers resources are required in everyday writing and updating tasks.\n* separates content from presentation, so you can reuse your content repository for any device platform your heart desires. That way, you can COPE (\"create once, publish everywhere\").\n* offers webhooks that you can use to rebuild your static site in a fully automated fashion every time your content is modified.\n\nExtracted from the article [CMS-functionality for static site generators](https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/ \"CMS-functionality for static site generators\"). Read more about the [static site generators supported by Contentful](https://www.contentful.com/developers/docs/tools/staticsitegenerators/ \"static site generators supported by Contentful\").",
+        "contentDigest": "68b10dabecefdf24b2eef3afa2a01240",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "45b493a8-9572-547c-a761-6c8dbf087248": {
+      "contentful_id": "6Od9v3wzLOysiMum0Wkmme",
+      "id": "45b493a8-9572-547c-a761-6c8dbf087248",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/hqbf17jvtgzp/6Od9v3wzLOysiMum0Wkmme/14710eb5068ea9b3722cb8b669903ef7/cameron-kirby-88711.jpg",
+        "details": {
+          "size": 7316629,
+          "image": {
+            "width": 3000,
+            "height": 2000
+          }
+        },
+        "fileName": "cameron-kirby-88711.jpg",
+        "contentType": "image/jpeg"
+      },
+      "title": "Woman with black hat",
+      "description": "Woman wearing a black hat",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "8c1306c78d3966c5517f2924fb62bebb",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "6e5763ae-297d-55a4-85b5-7f7988b40f00": {
+      "contentful_id": "4NzwDSDlGECGIiokKomsyI",
+      "id": "6e5763ae-297d-55a4-85b5-7f7988b40f00",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/hqbf17jvtgzp/4NzwDSDlGECGIiokKomsyI/dd9d31e22f726ea16b7c60b0dadc2dab/denys-nevozhai-100695.jpg",
+        "details": {
+          "size": 15736986,
+          "image": {
+            "width": 3992,
+            "height": 2992
+          }
+        },
+        "fileName": "denys-nevozhai-100695.jpg",
+        "contentType": "image/jpeg"
+      },
+      "title": "City",
+      "description": "City pictured from the sky",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "8c8b5732be4be5ada1d4c61e1eb144bf",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "1859903a-c0c2-5584-b0ab-378bd2a65e53": {
+      "contentful_id": "4shwYI3POEGkw0Eg6kcyaQ",
+      "id": "1859903a-c0c2-5584-b0ab-378bd2a65e53",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/hqbf17jvtgzp/4shwYI3POEGkw0Eg6kcyaQ/fc01337095a22595c4753a3f8d440362/felix-russell-saw-112140.jpg",
+        "details": {
+          "size": 4539181,
+          "image": {
+            "width": 2500,
+            "height": 1667
+          }
+        },
+        "fileName": "felix-russell-saw-112140.jpg",
+        "contentType": "image/jpeg"
+      },
+      "title": "Man in the fields",
+      "description": "Tattooed man walking in a field",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "9792388f789a29d6ffae1db5235f97b8",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "a2315d60-cf08-5788-91a7-ad6504672de3": {
+      "contentful_id": "7orLdboQQowIUs22KAW4U",
+      "id": "a2315d60-cf08-5788-91a7-ad6504672de3",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/hqbf17jvtgzp/7orLdboQQowIUs22KAW4U/12baf86db5da2b487f7750b42ca4a3e2/matt-palmer-254999.jpg",
+        "details": {
+          "size": 2293094,
+          "image": {
+            "width": 3000,
+            "height": 2000
+          }
+        },
+        "fileName": "matt-palmer-254999.jpg",
+        "contentType": "image/jpeg"
+      },
+      "title": "Sparkler",
+      "description": "John with Sparkler",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "0ba78ee22b0618c9d57182542a8569e3",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/home/user/Projects/surf/surfstatus/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "3f1d4b7b-2a82-500d-8f2c-d4ca01cbc31e",
+      "pluginCreatorId": "3f1d4b7b-2a82-500d-8f2c-d4ca01cbc31e",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3fa1533cfc057c422c75f51a1860f05f",
+        "description": "3f1d4b7b-2a82-500d-8f2c-d4ca01cbc31e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /surfbreaks/Ala Moana": {
+      "jsonName": "surfbreaks-ala-moana-5c3",
+      "internalComponentName": "ComponentSurfbreaksAlaMoana",
+      "path": "/surfbreaks/Ala Moana",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "componentChunkName": "component---src-templates-surfbreak-js",
+      "context": {
+        "surfbreak": {
+          "title": "Ala Moana",
+          "shore": "S",
+          "magicSW": 661
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "id": "SitePage /surfbreaks/Ala Moana",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "93fe3fd33f29e323b82e1dfa417b86f7",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /surfbreaks/Waikiki": {
+      "jsonName": "surfbreaks-waikiki-459",
+      "internalComponentName": "ComponentSurfbreaksWaikiki",
+      "path": "/surfbreaks/Waikiki",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "componentChunkName": "component---src-templates-surfbreak-js",
+      "context": {
+        "surfbreak": {
+          "title": "Waikiki",
+          "shore": "S",
+          "magicSW": 662
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "id": "SitePage /surfbreaks/Waikiki",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0033c7c831b2aa7bf940d3ab496be0a2",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /surfbreaks/Sandy Beach": {
+      "jsonName": "surfbreaks-sandy-beach-40a",
+      "internalComponentName": "ComponentSurfbreaksSandyBeach",
+      "path": "/surfbreaks/Sandy Beach",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "componentChunkName": "component---src-templates-surfbreak-js",
+      "context": {
+        "surfbreak": {
+          "title": "Sandy Beach",
+          "shore": "S",
+          "magicSW": 1099
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "id": "SitePage /surfbreaks/Sandy Beach",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7f9bf1ef59d3ddf9d888b1f76c095e94",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /surfbreaks/Kailua Outer Reefs": {
+      "jsonName": "surfbreaks-kailua-outer-reefs-d46",
+      "internalComponentName": "ComponentSurfbreaksKailuaOuterReefs",
+      "path": "/surfbreaks/Kailua Outer Reefs",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "componentChunkName": "component---src-templates-surfbreak-js",
+      "context": {
+        "surfbreak": {
+          "title": "Kailua Outer Reefs",
+          "shore": "E",
+          "magicSW": 671
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "id": "SitePage /surfbreaks/Kailua Outer Reefs",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1de850254dda0ddd24f0bb045c3122c8",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /surfbreaks/Makaha Point": {
+      "jsonName": "surfbreaks-makaha-point-745",
+      "internalComponentName": "ComponentSurfbreaksMakahaPoint",
+      "path": "/surfbreaks/Makaha Point",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "componentChunkName": "component---src-templates-surfbreak-js",
+      "context": {
+        "surfbreak": {
+          "title": "Makaha Point",
+          "shore": "W",
+          "magicSW": 983
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "id": "SitePage /surfbreaks/Makaha Point",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "09ed0ca7da829aa8436ef6b876ba6d39",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /surfbreaks/Makapuu Point": {
+      "jsonName": "surfbreaks-makapuu-point-5db",
+      "internalComponentName": "ComponentSurfbreaksMakapuuPoint",
+      "path": "/surfbreaks/Makapuu Point",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "componentChunkName": "component---src-templates-surfbreak-js",
+      "context": {
+        "surfbreak": {
+          "title": "Makapuu Point",
+          "shore": "E",
+          "magicSW": 984
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "id": "SitePage /surfbreaks/Makapuu Point",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2e498ee7af34228b77c3cba1a15e10af",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /surfbreaks/Barbers Point": {
+      "jsonName": "surfbreaks-barbers-point-9b4",
+      "internalComponentName": "ComponentSurfbreaksBarbersPoint",
+      "path": "/surfbreaks/Barbers Point",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "componentChunkName": "component---src-templates-surfbreak-js",
+      "context": {
+        "surfbreak": {
+          "title": "Barbers Point",
+          "shore": "S",
+          "magicSW": 3082
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "id": "SitePage /surfbreaks/Barbers Point",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "df7f7ed245d594af790151fe81152d8c",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /surfbreaks/Maili Point": {
+      "jsonName": "surfbreaks-maili-point-420",
+      "internalComponentName": "ComponentSurfbreaksMailiPoint",
+      "path": "/surfbreaks/Maili Point",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "componentChunkName": "component---src-templates-surfbreak-js",
+      "context": {
+        "surfbreak": {
+          "title": "Maili Point",
+          "shore": "W",
+          "magicSW": 3084
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "id": "SitePage /surfbreaks/Maili Point",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4a61000905ba52f235b449e4bf247af0",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /surfbreaks/Waimea Bay": {
+      "jsonName": "surfbreaks-waimea-bay-070",
+      "internalComponentName": "ComponentSurfbreaksWaimeaBay",
+      "path": "/surfbreaks/Waimea Bay",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "componentChunkName": "component---src-templates-surfbreak-js",
+      "context": {
+        "surfbreak": {
+          "title": "Waimea Bay",
+          "shore": "N",
+          "magicSW": 549
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "id": "SitePage /surfbreaks/Waimea Bay",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1adba4ca9aeff0a243ef274be5bd4709",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /surfbreaks/Pipeline": {
+      "jsonName": "surfbreaks-pipeline-a05",
+      "internalComponentName": "ComponentSurfbreaksPipeline",
+      "path": "/surfbreaks/Pipeline",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "componentChunkName": "component---src-templates-surfbreak-js",
+      "context": {
+        "surfbreak": {
+          "title": "Pipeline",
+          "shore": "N",
+          "magicSW": 616
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "id": "SitePage /surfbreaks/Pipeline",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "560ea637fdb83fd95d226ffce8a42180",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /surfbreaks/Sunset": {
+      "jsonName": "surfbreaks-sunset-8e1",
+      "internalComponentName": "ComponentSurfbreaksSunset",
+      "path": "/surfbreaks/Sunset",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "componentChunkName": "component---src-templates-surfbreak-js",
+      "context": {
+        "surfbreak": {
+          "title": "Sunset",
+          "shore": "N",
+          "magicSW": 657
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "id": "SitePage /surfbreaks/Sunset",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7839ae4646393224a7b96f8e2cbdbd71",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /surfbreaks/Rocky Point": {
+      "jsonName": "surfbreaks-rocky-point-9ac",
+      "internalComponentName": "ComponentSurfbreaksRockyPoint",
+      "path": "/surfbreaks/Rocky Point",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "componentChunkName": "component---src-templates-surfbreak-js",
+      "context": {
+        "surfbreak": {
+          "title": "Rocky Point",
+          "shore": "N",
+          "magicSW": 658
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "id": "SitePage /surfbreaks/Rocky Point",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3a0d03a4fb86fb855820208f95dfd47d",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /surfbreaks/Haleʻiwa": {
+      "jsonName": "surfbreaks-haleʻiwa-70b",
+      "internalComponentName": "ComponentSurfbreaksHaleʻiwa",
+      "path": "/surfbreaks/Haleʻiwa",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "componentChunkName": "component---src-templates-surfbreak-js",
+      "context": {
+        "surfbreak": {
+          "title": "Haleʻiwa",
+          "shore": "N",
+          "magicSW": 660
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "id": "SitePage /surfbreaks/Haleʻiwa",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "004615562d22159c42692cf6435ed7ff",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /surfbreaks/Laniakea": {
+      "jsonName": "surfbreaks-laniakea-dbe",
+      "internalComponentName": "ComponentSurfbreaksLaniakea",
+      "path": "/surfbreaks/Laniakea",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "componentChunkName": "component---src-templates-surfbreak-js",
+      "context": {
+        "surfbreak": {
+          "title": "Laniakea",
+          "shore": "N",
+          "magicSW": 3672
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js",
+      "id": "SitePage /surfbreaks/Laniakea",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8909c9617dfcaa7c95034bcf2157e934",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blogs": {
+      "jsonName": "blogs-0c8",
+      "internalComponentName": "ComponentBlogs",
+      "path": "/blogs",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/blogs.js",
+      "componentChunkName": "component---src-templates-blogs-js",
+      "context": {
+        "allposts": [
+          {
+            "node": {
+              "id": "e2cd30c3-913d-5f6f-9230-f3ed1c91a35c",
+              "slug": "automate-with-webhooks",
+              "title": "Automate with webhooks",
+              "publishDate": "2017-05-12T00:00+02:00",
+              "description": {
+                "description": "Webhooks notify you, another person or system when resources have changed by calling a given HTTP endpoint."
+              },
+              "body": {
+                "body": "## What are webhooks?\n\nThe webhooks are used to notify you when content has been changed. Specify a URL, configure your webhook, and we will send an HTTP POST request whenever something happens to your content.\n\n## How do I configure a webhook?\n\nGo to Settings → Webhooks from the navigation bar at the top. From there, hit Add webhook, and you will be directed to your new webhook. Then choose a name, put in the information of your HTTP endpoint (URL and authentication), specify any custom headers and select the types of events that should trigger the webhook.\n\n## Why do I get an old version in the CDA?\n\nAs the delivery API is powered by a CDN network consisting of hundreds of servers distributed across continents, it takes some time (up to a few minutes) to reflect the changes to the published content. This must be taken into consideration when reacting to webhooks. In normal conditions, there could be a reasonable delay of 2 to 5 minutes.\n\nExtracted from the [Webhooks FAQ](https://www.contentful.com/faq/webhooks/ \"Webhooks FAQ\")."
+              },
+              "author": {
+                "title": "Web Developer",
+                "phone": "0176 / 1234567",
+                "company": "ACME"
+              },
+              "heroImage": {
+                "sizes": {
+                  "src": "//images.ctfassets.net/hqbf17jvtgzp/4shwYI3POEGkw0Eg6kcyaQ/fc01337095a22595c4753a3f8d440362/felix-russell-saw-112140.jpg?w=800&q=50",
+                  "srcWebp": "//images.ctfassets.net/hqbf17jvtgzp/4shwYI3POEGkw0Eg6kcyaQ/fc01337095a22595c4753a3f8d440362/felix-russell-saw-112140.jpg?w=800&q=50&fm=webp"
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "aa7f37c3-955c-5d5e-9024-0b7e98684e23",
+              "slug": "hello-world",
+              "title": "Hello world",
+              "publishDate": "2017-05-15T00:00+02:00",
+              "description": {
+                "description": "Your very first content with Contentful, pulled in JSON format using the Content Delivery API."
+              },
+              "body": {
+                "body": "These is your very first content with Contentful, pulled in JSON format using the [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\"). Content and presentation are now decoupled, allowing you to focus your efforts in building the perfect app.\n\n## Your first steps\n\nBuilding with Contentful is easy. First take a moment to get [the basics of content modelling](https://www.contentful.com/r/knowledgebase/content-modelling-basics/ \"the basics of content modelling\"), which you can set up in the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\"). Once you get that, feel free to drop by the [Documentation](https://www.contentful.com/developers/docs/ \"Documentation\") to learn a bit more about how to build your app with Contentful, in particular the [API basics](https://www.contentful.com/developers/docs/concepts/apis/ \"API basics\") and each one of our four APIs, as shown below.\n\n### Content Delivery API\n\nThe [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\") (CDA), available at `cdn.contentful.com`, is a read-only API for delivering content from Contentful to apps, websites and other media. Content is delivered as JSON data, and images, videos and other media as files.\nThe API is available via a globally distributed content delivery network. The server closest to the user serves all content, both JSON and binary. This minimizes latency, which especially benefits mobile apps. Hosting content in multiple global data centers also greatly improves the availability of content.\n\n### Content Management API\n\nThe [Content Management API](https://www.contentful.com/developers/docs/references/content-management-api/ \"Content Management API\") (CMA), available at `api.contentful.com`, is a read-write API for managing content. Unlike the Content Delivery API, the management API requires you to authenticate as a Contentful user. You could use the CMA for several use cases, such as:\n* Automatic imports from different CMSes like WordPress or Drupal.\n* Integration with other backend systems, such as an e-commerce shop.\n* Building custom editing experiences. We built the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\") on top of this API.\n\n### Preview API\n\nThe [Content Preview API](https://www.contentful.com/developers/docs/concepts/apis/#content-preview-api \"Content Preview API\"), available at `preview.contentful.com`, is a variant of the CDA for previewing your content before delivering it to your customers. You use the Content Preview API in combination with a \"preview\" deployment of your website (or a \"preview\" build of your mobile app) that allows content managers and authors to view their work in-context, as if it were published, using a \"preview\" access token as though it were delivered by the CDA.\n\n### Images API\n\nThe [Images API](https://www.contentful.com/developers/docs/concepts/apis/#images-api \"Images API\"), available at `images.contentful.com`, allows you to resize and crop images, change their background color and convert them to different formats. Using our API for these transformations lets you upload high-quality assets, deliver exactly what your app needs, and still get all the benefits of our caching CDN."
+              },
+              "author": {
+                "title": "Web Developer",
+                "phone": "0176 / 1234567",
+                "company": "ACME"
+              },
+              "heroImage": {
+                "sizes": {
+                  "src": "//images.ctfassets.net/hqbf17jvtgzp/6Od9v3wzLOysiMum0Wkmme/14710eb5068ea9b3722cb8b669903ef7/cameron-kirby-88711.jpg?w=800&q=50",
+                  "srcWebp": "//images.ctfassets.net/hqbf17jvtgzp/6Od9v3wzLOysiMum0Wkmme/14710eb5068ea9b3722cb8b669903ef7/cameron-kirby-88711.jpg?w=800&q=50&fm=webp"
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "977bbcc5-6d12-5964-9d85-b4abf37b57d9",
+              "slug": "static-sites-are-great",
+              "title": "Static sites are great",
+              "publishDate": "2017-05-16T00:00+02:00",
+              "description": {
+                "description": "Worry less about security, caching, and talking to the server. Static sites are the new thing."
+              },
+              "body": {
+                "body": "## The case for the static site generator\n\nMore and more developers are jumping on the \"go static train\", and rightfully so. Static pages are fast, lightweight, they scale well. They are more secure, and simple to maintain and they allow you to focus all your time and effort on the user interface. Often times, this dedication really shows.\n\nIt just so happens that static site generators are mostly loved by developers, but not by the average Joe. They do not offer WYSIWYG, previewing on demo sites may take an update cycle, they are often based on markdown text files, and they require some knowledge of modern day repositories.\n\nMoreover, when teams are collaborating, it can get complicated quickly. Has this article already been proof-read or reviewed? Is this input valid? Are user permissions available, e.g. for administering adding and removing team members? Can this article be published at a future date? How can a large repository of content be categorized, organized, and searched? All these requirements have previously been more or less solved within the admin area of your CMS. But of course with all the baggage that made you leave the appserver-app-database-in-one-big-blob stack in the first place.\n\n## Content APIs to the rescue\n\nAn alternative is decoupling the content management aspect from the system. And then replacing the maintenance prone server with a cloud based web service offering. Effectively, instead of your CMS of old, you move to a [Content Management as a Service (CMaaS)](https://www.contentful.com/r/knowledgebase/content-as-a-service/ \"Content Management as a Service (CMaaS)\") world, with a content API to deliver all your content. That way, you get the all the [benefits of content management features](http://www.digett.com/blog/01/16/2014/pairing-static-websites-cms \"benefits of content management features\") while still being able to embrace the static site generator mantra.\n\nIt so happens that Contentful is offering just that kind of content API. A service that\n\n* from the ground up has been designed to be fast, scalable, secure, and offer high uptime, so that you don’t have to worry about maintenance ever again.\n* offers a powerful editor and lots of flexibility in creating templates for your documents that your editors can reuse and combine, so that no developers resources are required in everyday writing and updating tasks.\n* separates content from presentation, so you can reuse your content repository for any device platform your heart desires. That way, you can COPE (\"create once, publish everywhere\").\n* offers webhooks that you can use to rebuild your static site in a fully automated fashion every time your content is modified.\n\nExtracted from the article [CMS-functionality for static site generators](https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/ \"CMS-functionality for static site generators\"). Read more about the [static site generators supported by Contentful](https://www.contentful.com/developers/docs/tools/staticsitegenerators/ \"static site generators supported by Contentful\")."
+              },
+              "author": {
+                "title": "Web Developer",
+                "phone": "0176 / 1234567",
+                "company": "ACME"
+              },
+              "heroImage": {
+                "sizes": {
+                  "src": "//images.ctfassets.net/hqbf17jvtgzp/4NzwDSDlGECGIiokKomsyI/dd9d31e22f726ea16b7c60b0dadc2dab/denys-nevozhai-100695.jpg?w=800&q=50",
+                  "srcWebp": "//images.ctfassets.net/hqbf17jvtgzp/4NzwDSDlGECGIiokKomsyI/dd9d31e22f726ea16b7c60b0dadc2dab/denys-nevozhai-100695.jpg?w=800&q=50&fm=webp"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/blogs.js",
+      "id": "SitePage /blogs",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a923a22ba1249c57c87e4137658d059d",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/automate-with-webhooks/": {
+      "jsonName": "blog-automate-with-webhooks-0b0",
+      "internalComponentName": "ComponentBlogAutomateWithWebhooks",
+      "path": "/blog/automate-with-webhooks/",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "id": "e2cd30c3-913d-5f6f-9230-f3ed1c91a35c"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/blog-post.js",
+      "id": "SitePage /blog/automate-with-webhooks/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9b7672780fc62a9e14222742a1f616f8",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/hello-world/": {
+      "jsonName": "blog-hello-world-888",
+      "internalComponentName": "ComponentBlogHelloWorld",
+      "path": "/blog/hello-world/",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "id": "aa7f37c3-955c-5d5e-9024-0b7e98684e23"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/blog-post.js",
+      "id": "SitePage /blog/hello-world/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fa66b55797c538d01b9f5a03ed35fb54",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/static-sites-are-great/": {
+      "jsonName": "blog-static-sites-are-great-446",
+      "internalComponentName": "ComponentBlogStaticSitesAreGreat",
+      "path": "/blog/static-sites-are-great/",
+      "component": "/home/user/Projects/surf/surfstatus/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "id": "977bbcc5-6d12-5964-9d85-b4abf37b57d9"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/blog-post.js",
+      "id": "SitePage /blog/static-sites-are-great/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c3ec533a6e001482fb9c4bf1897fc02e",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/home/user/Projects/surf/surfstatus/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "3f1d4b7b-2a82-500d-8f2c-d4ca01cbc31e",
+      "pluginCreatorId": "3f1d4b7b-2a82-500d-8f2c-d4ca01cbc31e",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5e3f167ef0eee54344f8daa684b879d1",
+        "description": "3f1d4b7b-2a82-500d-8f2c-d4ca01cbc31e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/home/user/Projects/surf/surfstatus/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "88e92a807813b842441e80d3c153192d",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {
+      "gatsby-source-contentful": {
+        "hqbf17jvtgzp-master-preview.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZLa8OzXHpBwrzCrMOdw6XCiwPClsKnZcKbA8KrYlLDlyJuw7DCj8KwLcKqwp97IsKMw5nDl37DpCrDp8O7wqLCg8KEIcKYR8KRHMK2w5Nlw5nCl8OhNwYrw7dAT8KycgM2HA"
+      }
+    },
+    "PLUGINS_HASH": "a96dee037eb271b3a6e8686788035ff9"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
+      ],
+      "e2cd30c3-913d-5f6f-9230-f3ed1c91a35c": [
+        "/blog/automate-with-webhooks/"
+      ],
+      "2a7b87f1-07fa-5dae-b2b0-1815bd4e16ad": [
+        "sq--src-components-image-js"
+      ],
+      "26c84fe6-433c-5d4e-99ce-ecb90546b717": [
+        "/blog/automate-with-webhooks/"
+      ],
+      "752406a5-dc83-55f3-bb5a-3ff9d06a2e0e": [
+        "/blog/automate-with-webhooks/"
+      ],
+      "3c56de93-d279-5889-8563-5298ad412080": [
+        "/blog/automate-with-webhooks/",
+        "/blog/hello-world/",
+        "/blog/static-sites-are-great/"
+      ],
+      "1859903a-c0c2-5584-b0ab-378bd2a65e53": [
+        "/blog/automate-with-webhooks/"
+      ],
+      "bcc476ba-5859-56ef-b02a-6a882dcf1b32": [
+        "sq--src-components-image-js"
+      ],
+      "aa7f37c3-955c-5d5e-9024-0b7e98684e23": [
+        "/blog/hello-world/"
+      ],
+      "977bbcc5-6d12-5964-9d85-b4abf37b57d9": [
+        "/blog/static-sites-are-great/"
+      ],
+      "36fb81fc-c1b3-5e25-b79c-55cc915622bd": [
+        "/blog/hello-world/"
+      ],
+      "c72f650c-74a1-5ec7-a906-d6f8a4ac5706": [
+        "/blog/hello-world/"
+      ],
+      "45b493a8-9572-547c-a761-6c8dbf087248": [
+        "/blog/hello-world/"
+      ],
+      "0b2044f0-818a-516f-a704-e20a0c5309df": [
+        "/blog/static-sites-are-great/"
+      ],
+      "9b14d738-10d3-5af9-b877-b01405cbf434": [
+        "/blog/static-sites-are-great/"
+      ],
+      "6e5763ae-297d-55a4-85b5-7f7988b40f00": [
+        "/blog/static-sites-are-great/"
+      ]
+    },
+    "connections": {
+      "ContentfulBlogPost": [
+        null,
+        null
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-layout-js": 755544856,
+    "sq--src-components-seo-js": 1025518380,
+    "surfbreaks-ala-moana-5c3": "685/path---surfbreaks-ala-moana-5-c-3-04d-6a2UFKgvgeYhxZNMWxeTUOEVE",
+    "surfbreaks-waikiki-459": "580/path---surfbreaks-waikiki-459-761-31F6k2EhsFbpRcOVQQvbPhCUoE",
+    "surfbreaks-sandy-beach-40a": "503/path---surfbreaks-sandy-beach-40-a-3db-vveWX9LV47tiDzX9wR0MUMTVhRg",
+    "surfbreaks-kailua-outer-reefs-d46": "400/path---surfbreaks-kailua-outer-reefs-d-46-26b-XV8IhYSZYDistBBU68FmfAixQ3k",
+    "surfbreaks-makaha-point-745": "371/path---surfbreaks-makaha-point-745-fa8-KUpOrsjC1OXXVYWUXzhydUo4EI",
+    "surfbreaks-makapuu-point-5db": "352/path---surfbreaks-makapuu-point-5-db-1b6-nxfXyw7JwJsojh6SNuZ7pUUbBNQ",
+    "surfbreaks-barbers-point-9b4": "869/path---surfbreaks-barbers-point-9-b-4-cc8-mA0TrI0L5GU6GIcDK915RdNGG6A",
+    "surfbreaks-maili-point-420": "566/path---surfbreaks-maili-point-420-ca0-yegble0aNaWGAo4xvvgYgLthDR4",
+    "surfbreaks-waimea-bay-070": "81/path---surfbreaks-waimea-bay-070-69c-5E7wup97UNWr0wgtI5tS3pRFDg",
+    "surfbreaks-pipeline-a05": "176/path---surfbreaks-pipeline-a-05-12a-SLK19vLGlz65qGTOxjKTW57tY",
+    "surfbreaks-sunset-8e1": "744/path---surfbreaks-sunset-8-e-1-11f-BI7osp6UVzymmQhpzOcV8iZ2M",
+    "surfbreaks-rocky-point-9ac": "404/path---surfbreaks-rocky-point-9-ac-4cb-LcwRIOE75VBm0E3B9Z0HnoXAXPI",
+    "surfbreaks-haleʻiwa-70b": "876/path---surfbreaks-haleʻiwa-70-b-4f8-26oW4g4TSK5COHwa2J4xS6cF8Ao",
+    "surfbreaks-laniakea-dbe": "217/path---surfbreaks-laniakea-dbe-3ca-OPBL3nlfrZNazijGvBVQSGUUPz8",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-image-js": 2011440971,
+    "blog-automate-with-webhooks-0b0": "277/path---blog-automate-with-webhooks-0-b-0-583-gnkByuLemmKlxRR1sW1nGBT1Q",
+    "blog-hello-world-888": "660/path---blog-hello-world-888-a53-40aMQCuuUpfNlCJJtjrEdD4cA",
+    "blog-static-sites-are-great-446": "206/path---blog-static-sites-are-great-446-576-iC664lJr9jI6YpnVk6slWFtXtU",
+    "blogs-0c8": "515/path---blogs-0-c-8-553-f14X9wwWXNhenZLQRWirqsMIoCo"
+  },
+  "components": {
+    "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js": {
+      "query": "",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/surfbreak.js"
+    },
+    "/home/user/Projects/surf/surfstatus/src/templates/blogs.js": {
+      "query": "",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/blogs.js"
+    },
+    "/home/user/Projects/surf/surfstatus/src/templates/blog-post.js": {
+      "query": "query pageQuery(\n  $id: String\n) {\n  contentfulBlogPost(id: {eq: $id}) {\n    id\n    slug\n    title\n    publishDate\n    description {\n      description\n    }\n    body {\n      body\n    }\n    author {\n      title\n      phone\n      company\n    }\n    heroImage {\n      sizes {\n        src\n        srcWebp\n      }\n      description\n      file {\n        url\n        fileName\n        contentType\n      }\n    }\n  }\n}\n",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/templates/blog-post.js"
+    },
+    "/home/user/Projects/surf/surfstatus/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/home/user/Projects/surf/surfstatus/.cache/dev-404-page.js"
+    },
+    "/home/user/Projects/surf/surfstatus/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/pages/404.js"
+    },
+    "/home/user/Projects/surf/surfstatus/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-image-js": {
+      "name": "homeUserProjectsSurfSurfstatusSrcComponentsImageJs2011440971",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query homeUserProjectsSurfSurfstatusSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2011440971
+    },
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/home/user/Projects/surf/surfstatus/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
+    }
+  }
+}
